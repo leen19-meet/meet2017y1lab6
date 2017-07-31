@@ -31,5 +31,20 @@ UP= 0
 LEFT= 1
 DOWN= 2
 RIGHT= 3
-directions= up
 
+direction = UP
+
+def up():
+    global direction
+    direction = UP
+    print("you pressed UP")
+def down():
+    global direction
+    direction = DOWN
+    print("you pressed down")
+def left():
+    global direction
+    direction = LEFT
+def right():
+    global direction
+    direction = RIGHT
